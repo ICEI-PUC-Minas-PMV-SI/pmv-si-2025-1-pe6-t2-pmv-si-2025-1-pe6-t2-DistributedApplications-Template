@@ -34,10 +34,17 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Este Sistema de Gestão para Coworking é voltado para a gestão de agendamentos de salas presenciais em Belo Horizonte. O projeto tem como foco startups e profissionais autônomos que buscam um ambiente flexível para trabalho colaborativo. A seguir, detalhamos os principais perfis de usuários:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+- **Empreendedores e Fundadores de Startups:** Homens e mulheres, de 25 a 40 anos, formação superior em Administração, Marketing, TI ou Design, solteiros(as) ou casados(as), que frequentam regiões centrais de Belo Horizonte como Savassi e Funcionários e procuram um escritório inicial para suas reuniões.
+
+- **Desenvolvedores e Designers de Startups:** Pessoas de 20 a 35 anos, cursando ou formados em TI, Ciência da Computação ou Design Gráfico, solteiros(as) ou em relacionamento, que buscam ambientes colaborativos e cafés em regiões inovadoras de Belo Horizonte.
+
+- **Profissionais de Marketing e Vendas de Startups:** Homens e mulheres, de 22 a 40 anos, com formação em Marketing, Publicidade ou Administração, solteiros(as) ou casados(as), frequentam regiões com networking ativo como Savassi e Lourdes.
+
+- **Consultores e Profissionais Autônomos:** Homens e mulheres, de 25 a 45 anos, com formação em Administração, TI, Marketing ou Design, solteiros(as) ou casados(as) com horários flexíveis, que utilizam coworking para reuniões com clientes em centros empresariais de Belo Horizonte.
+
+- **Freelancers e Profissionais Remotos:** Homens e mulheres, de 22 a 40 anos, com formação em TI, Design, Marketing ou Jornalismo, solteiros(as) ou casados(as) com horários flexíveis, que buscam ambientes produtivos e inspiradores em bairros com boa infraestrutura em Belo Horizonte.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
