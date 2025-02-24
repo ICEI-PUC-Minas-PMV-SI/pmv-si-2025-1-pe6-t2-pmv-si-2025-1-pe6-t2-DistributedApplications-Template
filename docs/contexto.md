@@ -3,12 +3,16 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
+Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-O problema da marcação de salas em um ambiente de coworking é um dos principais desafios enfrentados por gestores e usuários desses espaços. Em um contexto onde startups e profissionais autônomos buscam flexibilidade e praticidade, a gestão eficiente das reservas de salas é crucial para garantir uma experiência positiva e evitar conflitos que possam prejudicar a produtividade e a satisfação dos usuários.
+Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Um dos principais problemas é a sobreposição de reservas. Em um espaço de coworking, onde várias pessoas ou equipes compartilham os mesmos recursos, é comum que ocorram conflitos de agendamento, especialmente se o processo de reserva não for centralizado ou automatizado. Isso pode levar a situações em que duas ou mais pessoas tentam usar a mesma sala no mesmo horário, causando frustração e perda de tempo. A complexidade no processo de reserva também é um ponto crítico. Se o sistema for complicado ou exigir muitas etapas para realizar uma reserva, os usuários podem desistir de usar o espaço ou buscar alternativas mais simples. Isso é particularmente relevante para profissionais autônomos e startups, que muitas vezes precisam de agilidade e praticidade para focar em suas atividades principais.
+Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-Em resumo, o problema da marcação de salas em um coworking envolve uma série de desafios, desde a sobreposição de reservas e a dificuldade em visualizar a disponibilidade até a complexidade no processo de reserva e a falta de flexibilidade. Um sistema de gestão eficiente deve resolver esses problemas, oferecendo uma experiência ágil, intuitiva e integrada para os usuários, ao mesmo tempo em que fornece ferramentas de controle e análise para os gestores do espaço.
+> **Links Úteis**:
+> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
+> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
