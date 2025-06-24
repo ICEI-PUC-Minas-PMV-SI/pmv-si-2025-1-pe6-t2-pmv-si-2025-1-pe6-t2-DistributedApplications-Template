@@ -1,116 +1,132 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o crescimento do trabalho híbrido e remoto, os espaços de coworking se tornaram uma alternativa essencial para profissionais autônomos, startups e empresas que buscam flexibilidade e infraestrutura adequada. No entanto, a gestão eficiente desses espaços ainda representa um desafio, principalmente quando realizada de forma manual ou com sistemas pouco integrados.
+
+Este projeto propõe o desenvolvimento de um Sistema para Coworking, uma plataforma web e mobile que permite aos usuários visualizar e reservar salas e mesas em tempo real. Além disso, oferece um painel administrativo para que gestores possam monitorar e gerenciar reservas de forma eficiente.
+
+O objetivo é otimizar a operação dos espaços de coworking, evitando agendamentos conflitantes e melhorando a experiência dos usuários por meio de um sistema intuitivo, seguro e de fácil acesso. A plataforma também contará com recursos como notificações sobre reservas, relatórios de ocupação e, opcionalmente, pagamento online.
+
+Diante do crescimento contínuo desse mercado no Brasil, uma solução tecnológica como essa se torna fundamental para garantir um ambiente organizado, acessível e funcional tanto para os usuários quanto para os administradores dos espaços de coworking.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Muitos espaços de coworking enfrentam desafios na organização e gestão de reservas, frequentemente utilizando processos manuais ou sistemas fragmentados. Isso pode resultar em agendamentos conflitantes, falta de transparência na disponibilidade de recursos e dificuldades na comunicação com os usuários, impactando negativamente a eficiência operacional e a satisfação dos clientes.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver um backend robusto para gerenciar a lógica de negócios e garantir a comunicação eficiente com o banco de dados.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Implementar um banco de dados relacional, armazenando informações sobre usuários, reservas e disponibilidade de salas e mesas com integridade e segurança.
+
+Criar uma aplicação web responsiva com React.js, permitindo que os usuários realizem reservas de forma intuitiva e visualizem a disponibilidade em tempo real.
+
+Desenvolver um aplicativo mobile em Flutter para possibilitar o acesso rápido e prático às reservas diretamente pelo smartphone.
+
+Oferecer um painel administrativo que permita aos gestores visualizar, monitorar e gerenciar reservas, garantindo um controle eficiente do espaço de coworking.
+
+Garantir a segurança dos dados através da criptografia de senhas, comunicação segura (SSL/TLS) e conformidade com a LGPD.
+
+Assegurar a escalabilidade e desempenho do sistema, garantindo suporte para pelo menos 1.000 usuários simultâneos com tempo de resposta inferior a 2 segundos.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O mercado de coworking no Brasil tem experimentado um crescimento significativo nos últimos anos. De acordo com o Censo Coworking 2024, realizado pela Woba, o número de espaços de coworking no país aumentou aproximadamente 20% em um ano, totalizando 2.986 espaços ativos. Esse crescimento é impulsionado pela demanda por ambientes de trabalho flexíveis, especialmente devido à popularização do trabalho híbrido e remoto.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, a pesquisa indica que 91% dos coworkings brasileiros se posicionam como multidisciplinares, atendendo profissionais de diversos segmentos. Isso ressalta a necessidade de sistemas eficientes que possam gerenciar a diversidade de usuários e suas respectivas demandas.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A implementação de uma plataforma integrada para gestão de reservas não apenas otimiza a operação dos espaços, mas também melhora a experiência do usuário, promovendo maior transparência e facilidade no processo de agendamento.
+
+REFERÊNCIA: <https://www.terra.com.br/economia/meu-negocio/censo-do-coworking-2024-revela-crescimento-do-setor-no-brasil%2C6e44c008ed53d31c86b4a3dc4e18b8dfx2t4r92o.html?utm_source=chatgpt.com>
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O sistema será direcionado para os seguintes perfis:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Profissionais Autônomos e Freelancers: Indivíduos que buscam um ambiente profissional fora de casa para aumentar sua produtividade e expandir sua rede de contatos. Geralmente, possuem familiaridade com ferramentas tecnológicas e valorizam a flexibilidade e o networking proporcionados pelos coworkings.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Pequenas Empresas e Startups: Empresas em fase inicial ou em crescimento que necessitam de espaços de trabalho flexíveis e escaláveis. Esses usuários frequentemente procuram soluções que ofereçam infraestrutura completa sem os altos custos de um escritório próprio.
+
+Empresas Adotando Modelos Híbridos/Remotos: Organizações estabelecidas que implementaram políticas de trabalho remoto ou híbrido e buscam espaços para reuniões presenciais, treinamentos ou para colaboradores que preferem não trabalhar exclusivamente de casa.
+
+Administradores de Espaços de Coworking: Profissionais responsáveis pela gestão e operação dos coworkings, que necessitam de ferramentas eficientes para gerenciar reservas, pagamentos e a comunicação com os membros.
+
+De acordo com estudos, a idade média dos usuários de coworking no Brasil é de 33 anos, com uma distribuição equilibrada entre homens e mulheres. As áreas de atuação mais comuns incluem tecnologia, comunicação, design, administração e serviços. Esses profissionais geralmente possuem nível superior completo ou pós-graduação e buscam nos coworkings não apenas um espaço físico, mas também oportunidades de networking e colaboração.
+
+REFERÊNCIA: <https://clubcoworking.com.br/perfil-do-coworker-qual-e/?utm_source=chatgpt.com>
+
+
 
 # Especificações do Projeto
 
-## Requisitos
+## Requisitos do Sistema para Coworking
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+## 1. Requisitos Funcionais (RF)
+Os requisitos funcionais descrevem as funcionalidades que o sistema deve oferecer.
 
-### Requisitos Funcionais
+| Código  | Descrição | Prioridade | Responsável |
+|---------|-----------|------------|-------------|
+| **RF01** | O sistema deve permitir o  Gestão de usuários. | **Alta** | Fillipe |
+| **RF02** | O sistema deve permitir o  Gestão de salas e mesas, incluindo capacidade e recursos disponíveis. | **Alta** | Túlio |
+| **RF03** | O sistema deve permitir o  Gestão de reservas de salas e mesas. | **Alta** | Nicollas |
+| **RF04** | O sistema deve permitir a vizualização de salas e mesas disponíveis para reserva com data e hora. | **Alta** | Vinicius |
+| **RF05** | O sistema deve exibir notificações no site/aplicativo sobre confirmação, cancelamento e lembretes de reservas. | **Média** | Josenilson |
+| **RF06** | O administrador deve poder gerenciar usuários e suas permissões. | **Alta** | Fillipe |
+| **RF07** | O administrador deve poder visualizar e gerenciar reservas. | **Alta** | Nicollas |
+| **RF08** | O sistema deve oferecer relatórios sobre ocupação e uso dos espaços. | **Baixa** | Tulio |
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
-### Requisitos não Funcionais
+## 2. Requisitos Não Funcionais (RNF)
+Os requisitos não funcionais definem características e restrições técnicas do sistema.
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| Código  | Descrição | Prioridade |
+|---------|-----------|------------|
+| **RNF01** | O sistema deve ser hospedado em um ambiente que suporte um mínimo de 1.000 usuários simultâneos. |
+| **RNF02** | Deve ser implementado um banco de dados relacional que suporte transações simultâneas e integridade referencial. |
+| **RNF03** | O sistema deve estar disponível 24/7, garantindo alta disponibilidade para os usuários. |
+| **RNF04** | O sistema deve seguir normas de proteção de dados e privacidade, como a **LGPD (Lei Geral de Proteção de Dados)**. |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID  | Restrição |
+|-----|---------------------------------------------------------------|
+| **R01** | O projeto deverá ser entregue até o final do semestre |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 # Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+| **Serviço** | **Descrição** | **Funcionalidades** | **Restrições** |
+|-------------|-------------|--------------------|---------------|
+| **Gestão de Usuários** | Permite que usuários se cadastrem, gerenciem suas informações e acessem o sistema com diferentes níveis de permissão. | Cadastro de novos usuários com autenticação segura. <br> Login e recuperação de senha. <br> Atualização de informações pessoais. <br> Definição de permissões para administradores e usuários comuns. | Apenas administradores podem alterar permissões de usuários. <br> As senhas devem ser armazenadas com criptografia. <br> O acesso ao sistema deve ser feito via autenticação segura. |
+| **Gestão de Salas e Mesas** | Permite que administradores cadastrem, editem e removam salas e mesas disponíveis para reserva. | Cadastro de salas e mesas, incluindo capacidade e recursos disponíveis (Wi-Fi, projetores, lousas digitais etc.). <br> Atualização de informações sobre as salas e mesas. <br> Remoção de espaços que não estarão mais disponíveis. | Apenas administradores podem cadastrar ou remover salas e mesas. <br> As informações devem estar sempre sincronizadas para evitar conflitos de reserva. |
+| **Reservas de Salas e Mesas** | Permite que usuários realizem reservas de salas e mesas com data e hora específicas. | Consulta de disponibilidade de salas e mesas. <br> Realização de reservas com data e hora. <br> Cancelamento e modificação de reservas. | As reservas devem ser validadas em tempo real para evitar conflitos. <br> Apenas o usuário que realizou a reserva pode cancelá-la ou modificá-la. |
+| **Notificações no Site/Aplicativo** | O sistema exibirá notificações internas para manter os usuários informados sobre suas reservas. | Notificação de confirmação de reserva. <br> Lembretes de reserva próximos ao horário agendado. <br> Notificação sobre cancelamento ou modificação da reserva. | As notificações serão apenas no site/aplicativo, sem uso de SMS ou e-mail. |
+| **Gestão de Reservas pelo Administrador** | Os administradores terão acesso a um painel para visualizar e gerenciar todas as reservas do sistema. | Consulta de todas as reservas realizadas no coworking. <br> Cancelamento de reservas em casos necessários. | Apenas administradores podem visualizar e modificar reservas de outros usuários. |
+| **Relatórios de Ocupação e Uso** | Geração de relatórios detalhados sobre a ocupação dos espaços e padrões de uso. | Geração de relatórios em formato visual e acessível. <br> Exibição de estatísticas sobre salas mais reservadas, horários de pico, taxa de ocupação, etc. | Apenas administradores terão acesso aos relatórios completos. |
+| **Pagamento Online (Opcional)** | Possibilidade de realizar pagamentos online para reservas, caso o coworking tenha planos pagos. | Integração com meios de pagamento online (cartão de crédito, Pix, boleto). <br> Histórico de pagamentos e recibos. | O serviço de pagamento será opcional e ativado apenas se necessário. |
+
+
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A arquitetura do sistema será baseada em uma abordagem cliente-servidor, utilizando uma estrutura multi-camada para garantir modularidade, escalabilidade e manutenibilidade. O sistema será composto pelas camadas Apresentação (Frontend e Mobile), de Aplicação (Backend e API) e de Dados (Banco de Dados).
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
+![arq](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe6-t2-turma-02-g4-sistema-para-coworking/blob/main/docs/img/arquitetura.drawio%20(1).png)
 
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+1 - C# e ASP.NET → Responsável pela lógica de negócios e comunicação com o banco de dados.
+2 - Banco de Dados: SQL Server Express → Armazena informações sobre usuários, reservas e disponibilidade de salas/mesas.
+3 - React.js → Proporciona uma interface intuitiva para os usuários realizarem reservas.
+4 - Flutter → Permite que os usuários façam reservas diretamente pelo smartphone.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
+
 
 ## Hospedagem
 
